@@ -29,6 +29,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+   
 }
 
 /** links **/
@@ -135,6 +136,15 @@ hr {
     text-align: center;
 
 }
+
+.section h2{
+    text-align: center;
+}
+
+.section p {
+    text-align: center;
+}
+
 
 .ow {
     background-color: var(--off-white);
