@@ -48,6 +48,7 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
 }
 
 .link-secondary {
@@ -57,6 +58,7 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
 }
 
 /** look into BEM naming convention for CSS **/
