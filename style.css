@@ -29,8 +29,54 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+
+}
+
+.technologies {
+
+    width: 80%;
+    background-color: #ECFDF5;
+    border-radius: 50px;
+    margin: auto; 
+
+}
+
+.tech text{
+    text-align:left;
+     
+
+}
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 50px;
+    background-color: #064E3B;
+}
+
+.html {
+    
+    width: 90%;
+    
+}
+
+.css {
+    width: 80%;
+    
+}
+
+.js {
+    width: 65%;
+    
+}
+
+.git {
+    width: 60%;
    
 }
+
 
 /** links **/
 .link {
@@ -38,7 +84,7 @@ hr {
     font-size: larger;
     text-decoration: none;
     padding: 0.5rem 1rem;
- 
+
 }
 
 .link-primary {
@@ -87,7 +133,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    
+
 }
 
 .nav-brand a {
@@ -143,7 +189,7 @@ hr {
 
 }
 
-.section h2{
+.section h2 {
     text-align: center;
 }
 
