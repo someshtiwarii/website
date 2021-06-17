@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root {
-    --primary-color: #047857;
-    --off-white: #D1FAE5;
-    --dark-gray: #34D399;
+    --primary-color: #4338CA;
+    --off-white: #E0E7FF;
+    --dark-gray: #818CF8;
 }
 
 body {
@@ -34,26 +34,23 @@ hr {
 
 .technologies {
 
-    width: 80%;
+    width: 60%;
     background-color: #ECFDF5;
-    border-radius: 50px;
-    margin: auto; 
+    margin:auto; 
 
 }
 
 .tech text{
+    
     text-align:left;
-     
-
 }
 
 .skills {
     text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     color: white;
-    border-radius: 50px;
-    background-color: #064E3B;
+    background-color: var(--primary-color);
 }
 
 .html {
@@ -107,7 +104,7 @@ hr {
     text-align: center;
 }
 
-/** look into BEM naming convention for CSS **/
+/** BEM naming convention for CSS **/
 
 /** lists **/
 
