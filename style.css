@@ -41,7 +41,6 @@ hr {
 }
 
 .tech text{
-    
     text-align:left;
 }
 
@@ -65,15 +64,29 @@ hr {
 }
 
 .js {
-    width: 65%;
+    width: 10%;
     
 }
 
 .git {
-    width: 60%;
+    width: 50%;
    
 }
 
+.c{
+    width: 60%;
+}
+
+.seo{
+    width: 80%;
+
+}
+
+
+.sql{
+    width: 60%;
+
+}
 
 /** links **/
 .link {
