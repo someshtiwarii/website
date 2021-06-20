@@ -4,6 +4,7 @@
     --primary-color: #4338CA;
     --off-white: #E0E7FF;
     --dark-gray: #818CF8;
+    --secondary: #6366F1;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 hr {
     margin: 2rem 0rem;
 }
+
 
 /** spaces **/
 
@@ -36,12 +38,12 @@ hr {
 
     width: 60%;
     background-color: #ECFDF5;
-    margin:auto; 
+    margin: auto;
 
 }
 
-.tech text{
-    text-align:left;
+.tech text {
+    text-align: left;
 }
 
 .skills {
@@ -53,37 +55,37 @@ hr {
 }
 
 .html {
-    
+
     width: 90%;
-    
+
 }
 
 .css {
     width: 80%;
-    
+
 }
 
 .js {
     width: 10%;
-    
+
 }
 
 .git {
     width: 50%;
-   
+
 }
 
-.c{
+.c {
     width: 60%;
 }
 
-.seo{
+.seo {
     width: 80%;
 
 }
 
 
-.sql{
+.sql {
     width: 60%;
 
 }
@@ -207,6 +209,25 @@ hr {
     text-align: center;
 }
 
+.section hr {
+    width: 96px;
+    background-color: var(--secondary);
+    border: 3px solid var(--secondary);
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
 
 .ow {
     background-color: var(--off-white);
@@ -221,6 +242,28 @@ hr {
     color: white;
     border-top-right-radius: 1rem;
 }
+
+.footer-icons-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+   
+}
+.footer-icons{
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn .icon{
+    max-width: 50%;
+    width:1.5rem;
+    margin-right: .5rem;
+}
+
 
 .footer .link {
     color: white
