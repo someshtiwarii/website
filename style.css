@@ -155,6 +155,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    font-size: 1.1rem;
 }
 
 .navigation .link {
@@ -168,7 +169,7 @@ hr {
 /** header **/
 
 .hero {
-    padding: 2rem;
+    padding: 1rem;
     padding-top: 5rem;
 
 }
@@ -237,7 +238,7 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -271,8 +272,9 @@ hr {
 }
 
 .footer .footer-header {
+    text-align: center;
     font-weight: bold;
-    font-size: large;
+    font-size:1.5rem;
 }
 
 .footer ul {
@@ -288,3 +290,4 @@ hr {
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
