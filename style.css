@@ -39,6 +39,11 @@ hr {
     width: 60%;
     background-color: #ECFDF5;
     margin: auto;
+    transition:transform 0.2s;
+}
+
+.technologies:hover{
+    transform:scale(1.05);
 
 }
 
@@ -52,7 +57,12 @@ hr {
     padding-bottom: 1px;
     color: white;
     background-color: var(--primary-color);
+    transition:transform 0.2s;
 }
+.skills:hover{
+    transform:scale(1.05);
+}
+
 
 .html {
 
@@ -103,21 +113,34 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    display: inline;
+    display: flex;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
     text-align: center;
+    transition: transform 0.2s;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    display: inline;
+    display: flex;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
     text-align: center;
+    transition: transform 0.2s;
 }
+
+.link-primary:hover{
+    transform: scale(1.1);
+}
+
+.link-secondary:hover{
+    transform: scale(1.1);
+}
+
+
+
 
 /** BEM naming convention for CSS **/
 
@@ -144,7 +167,7 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight: bold;nsition: transform 0.2s;
 
 }
 
@@ -258,6 +281,11 @@ hr {
 .footer-icons{
     margin-right: 1.5rem;
     margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+.footer-icons:hover{
+    transform: scale(1.5);
 }
 
 .btn .icon{
