@@ -3,7 +3,7 @@
 :root {
     --primary-color: #4338CA;
     --off-white: #E0E7FF;
-    --dark-gray: #818CF8;
+    --light-indigo: #818CF8;
     --secondary: #6366F1;
 }
 
@@ -39,11 +39,11 @@ hr {
     width: 60%;
     background-color: #ECFDF5;
     margin: auto;
-    transition:transform 0.2s;
+    transition: transform 0.2s;
 }
 
-.technologies:hover{
-    transform:scale(1.05);
+.technologies:hover {
+    transform: scale(1.05);
 
 }
 
@@ -56,11 +56,12 @@ hr {
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;
-    background-color: var(--primary-color);
-    transition:transform 0.2s;
+    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
+    transition: transform 0.2s;
 }
-.skills:hover{
-    transform:scale(1.05);
+
+.skills:hover {
+    transform: scale(1.05);
 }
 
 
@@ -110,7 +111,7 @@ hr {
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
     border-radius: 0.5rem;
     color: white;
     display: flex;
@@ -131,11 +132,11 @@ hr {
     transition: transform 0.2s;
 }
 
-.link-primary:hover{
+.link-primary:hover {
     transform: scale(1.1);
 }
 
-.link-secondary:hover{
+.link-secondary:hover {
     transform: scale(1.1);
 }
 
@@ -160,14 +161,15 @@ hr {
 /** navigation **/
 
 .navigation {
-    background-color: var(--primary-color);
+    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;nsition: transform 0.2s;
+    font-weight: bold;
+    transition: transform 0.2s;
 
 }
 
@@ -207,7 +209,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--light-indigo);
 }
 
 .hero .hero-heading .heading-inverted {
@@ -260,37 +262,38 @@ hr {
 /** footers **/
 
 .footer {
-    background-color: var(--primary-color);
+    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
     padding: 3rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
 
-.footer-icons-container{
-    
+.footer-icons-container {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    
 
-   
+
+
 }
-.footer-icons{
+
+.footer-icons {
     margin-right: 1.5rem;
     margin-bottom: 1rem;
     transition: transform 0.2s;
 }
 
-.footer-icons:hover{
+.footer-icons:hover {
     transform: scale(1.5);
 }
 
-.btn .icon{
+.btn .icon {
     max-width: 50%;
-    width:1.5rem;
+    width: 1.5rem;
     margin-right: .5rem;
 }
 
@@ -302,7 +305,7 @@ hr {
 .footer .footer-header {
     text-align: center;
     font-weight: bold;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
 .footer ul {
@@ -318,4 +321,3 @@ hr {
 .showcase-blog {
     padding-bottom: 6rem;
 }
-
