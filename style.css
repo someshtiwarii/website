@@ -17,13 +17,12 @@ hr {
 }
 
 
-/** spaces **/
+
 
 .margin-md {
     margin: 2rem;
 }
 
-/** container **/
 .container {
     padding: 0rem 1rem;
 }
@@ -31,21 +30,15 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
-
 }
 
 .technologies {
-
     width: 60%;
     background-color: #ECFDF5;
     margin: auto;
-    transition: transform 0.2s;
 }
 
-.technologies:hover {
-    transform: scale(1.05);
 
-}
 
 .tech text {
     text-align: left;
@@ -276,9 +269,6 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-
-
-
 }
 
 .footer-icons {
