@@ -79,9 +79,7 @@ hr {
 
 }
 
-.c {
-    width: 60%;
-}
+
 
 .seo {
     width: 80%;
@@ -89,12 +87,9 @@ hr {
 }
 
 
-.sql {
-    width: 60%;
 
-}
 
-/** links **/
+
 .link {
     box-sizing: border-box;
     font-size: larger;
@@ -136,9 +131,7 @@ hr {
 
 
 
-/** BEM naming convention for CSS **/
 
-/** lists **/
 
 .list-non-bullet {
     list-style: none;
@@ -151,7 +144,7 @@ hr {
     text-align: right;
 }
 
-/** navigation **/
+
 
 .navigation {
     background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
@@ -184,7 +177,7 @@ hr {
     font-weight: bold;
 }
 
-/** header **/
+
 
 .hero {
     padding: 1rem;
@@ -209,7 +202,7 @@ hr {
     color: var(--primary-color);
 }
 
-/** sections **/
+
 
 .section {
     padding: 2rem;
@@ -252,7 +245,8 @@ hr {
     background-color: var(--off-white);
 }
 
-/** footers **/
+
+
 
 .footer {
     background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
@@ -302,12 +296,18 @@ hr {
     padding-inline-start: 0px;
 }
 
-/** projects **/
 .showcase-list {
     padding: 2rem;
 }
 
-/** blogs **/
+
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+
+.blog-page{
+    max-width: 600px;
+    margin: auto;
+
 }
