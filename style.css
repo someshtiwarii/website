@@ -2,21 +2,20 @@
 
 :root {
     --primary-color: #4338CA;
-    --off-white: #E0E7FF;
-    --light-indigo: #818CF8;
     --secondary: #6366F1;
+    --light-indigo: #818CF8;
+    --off-white: #E0E7FF;
+    --tertiary: #EEF2FF;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0px
+    margin: 0px;
 }
 
 hr {
     margin: 2rem 0rem;
 }
-
-
 
 
 .margin-md {
@@ -39,7 +38,6 @@ hr {
 }
 
 
-
 .tech text {
     text-align: left;
 }
@@ -59,34 +57,25 @@ hr {
 
 
 .html {
-
-    width: 90%;
-
+    width: 50%;
 }
 
 .css {
-    width: 80%;
-
+    width: 30%;
 }
 
 .js {
     width: 20%;
-
 }
 
 .git {
-    width: 50%;
+    width: 20%;
 
 }
-
-
-
 .seo {
     width: 80%;
 
 }
-
-
 
 
 
@@ -127,10 +116,6 @@ hr {
 .link-secondary:hover {
     transform: scale(1.1);
 }
-
-
-
-
 
 
 .list-non-bullet {
@@ -174,6 +159,7 @@ hr {
 }
 
 .navigation .link-active {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -306,8 +292,18 @@ hr {
 }
 
 
-.blog-page{
+.blog-page {
     max-width: 600px;
     margin: auto;
 
+}
+
+.projects {
+    border-style: outset;
+    border: 3px solid var(--secondary);
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+    background-color: var(--tertiary);
+    max-width: 600px;
+    margin: 1rem auto;
 }
