@@ -47,7 +47,7 @@ hr {
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;
-    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
+    background: linear-gradient(to left top, var(--primary-color), var(--light-indigo));
     transition: transform 0.2s;
 }
 
@@ -88,7 +88,7 @@ hr {
 }
 
 .link-primary {
-    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
+    background: linear-gradient(to left top, var(--primary-color), var(--light-indigo));
     border-radius: 0.5rem;
     color: white;
     display: flex;
@@ -132,7 +132,7 @@ hr {
 
 
 .navigation {
-    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
+    background: linear-gradient(to left top, var(--primary-color), var(--light-indigo));
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -235,7 +235,7 @@ hr {
 
 
 .footer {
-    background: linear-gradient(to left, var(--primary-color), var(--light-indigo));
+    background: linear-gradient(to left top, var(--primary-color), var(--light-indigo));
     padding: 3rem 1rem;
     text-align: center;
     color: white;
