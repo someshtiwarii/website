@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
 :root {
     --primary-color: #4338CA;
@@ -11,6 +11,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
+    line-height: 1.5 ;
 }
 
 hr {
@@ -84,6 +85,7 @@ hr {
     font-size: larger;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-shadow: 2px 2px 20px;
 
 }
 
@@ -92,9 +94,10 @@ hr {
     border-radius: 0.5rem;
     color: white;
     display: flex;
-    max-width: 140px;
+    max-width: 150px;
     margin: 1rem 1rem 1rem 0rem;
     text-align: center;
+    justify-content: center;
     transition: transform 0.2s;
 }
 
@@ -103,9 +106,10 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     display: flex;
-    max-width: 140px;
+    max-width: 150px;
     margin: 1rem 1rem 1rem 0rem;
     text-align: center;
+    justify-content: center;
     transition: transform 0.2s;
 }
 
@@ -299,11 +303,15 @@ hr {
 }
 
 .projects {
-    border-style: outset;
+    /* border-style: outset;
     border: 3px solid var(--secondary);
     margin-bottom: 1.5rem;
     border-radius: 20px;
     background-color: var(--tertiary);
     max-width: 600px;
-    margin: 1rem auto;
+    margin: 1rem auto; */
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 20px 0 rgb(67, 56, 202,0.3);
 }
