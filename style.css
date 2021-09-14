@@ -297,9 +297,14 @@ hr {
 
 
 .blog-page {
-    max-width: 600px;
-    margin: auto;
+    max-width: 650px;
+    margin:0 auto;
+    padding:0 20px;
 
+}
+
+.blog-page ol{
+    padding-inline-start: 20px;
 }
 
 .projects {
